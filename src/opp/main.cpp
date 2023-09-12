@@ -1,5 +1,5 @@
 //////////////////////////////////////////////**********************************////////////////////////////////////////
-//  In this version, only flat layer module is available, Curvislicer is not necessary now.
+//  In this version, only flat layer module is available, Curvislicer is not necessary.
 //////////////////////////////////////////////**********************************////////////////////////////////////////
 
 #include "data.h"

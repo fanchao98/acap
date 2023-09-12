@@ -1,4 +1,4 @@
-# As-continuous-as-possible Extrusion-based Fabrication of Surface Models[Project page](https://fanchao98.github.io/ACAP%20page/acap.html)
+# As-continuous-as-possible Extrusion-based Fabrication of Surface Models [[Project page]](https://fanchao98.github.io/ACAP%20page/acap.html)
 ![.](/teaser.png)
 
 # Dependency

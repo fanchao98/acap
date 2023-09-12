@@ -18,14 +18,14 @@ clock_t start_time, end_time;
 int main()
 {
 	nozzle the_nozzle;
-	the_nozzle.upper_surface_r = 4.5; // 4.5
-	the_nozzle.lowwer_surface_r = 1;  //1
-	the_nozzle.nozzle__H_total = 8;  //8
-	the_nozzle.nozzle_H_half = 2.5; //2.5
+	the_nozzle.upper_surface_r = 4.5; 
+	the_nozzle.lowwer_surface_r = 1; 
+	the_nozzle.nozzle__H_total = 8;  
+	the_nozzle.nozzle_H_half = 2.5; 
 
 	Input input;
 	input.config_path = "config.ini";
-	input.model_path = "..\\model\\Results_grail_FDM.stl";
+	input.model_path = "..\\model\\Results_grail_FDM.stl";   //Note that you should also revise the name of model in the helpers.h file.
 	
 	std::vector<Data> data;
 

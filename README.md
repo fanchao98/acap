@@ -1,4 +1,5 @@
 # As-continuous-as-possible Extrusion-based Fabrication of Surface Models
+![.](/teaser.png)
 
 # Dependency
 You should install **CGAL**, **opencv**, **boost(1_76_0)**, **eigen3**, [**Curvislicer**](https://github.com/mfx-inria/curvislicer) before compiling this project.

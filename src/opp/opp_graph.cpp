@@ -1043,6 +1043,12 @@ void OPP_Graph::GeneratePath()
 	//output flat blocks
 	double temp_dh = 0.2;
 	int number_block = 0;
+	
+	std::string derectory_seg = "../segmentation";
+	_mkdir(derectory_seg.c_str());
+	std::string derectory_block = "../Blocks_files";
+	_mkdir(derectory_block.c_str());
+	
 	std::string derectory_2 = "../segmentation/" + file_name + "_all_flat_blocks";
 	_mkdir(derectory_2.c_str());
 	for (int i = 0;i < all_flat_blocks.size();i++) {
